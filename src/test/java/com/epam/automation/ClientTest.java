@@ -11,7 +11,7 @@ public class ClientTest {
 
     @Before
     public void createClient() {
-         client = new Client("Tom", "2");
+         client = new Client("Tommi", "2");
     }
 
     @Test
@@ -23,6 +23,6 @@ public class ClientTest {
     @Test
     public void getFullNameTest()
     {
-        assertEquals(client.getFullName(), "Tom");
+        assertEquals(client.getFullName(), "Tommi");
     }
 }
